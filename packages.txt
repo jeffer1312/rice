@@ -1,0 +1,10 @@
+# Extras do rice alem das dependencias do end-4 (que o proprio instalador dele poe).
+stow
+git
+micro
+nwg-displays
+noto-fonts-cjk
+noto-fonts-emoji
+ttf-meslo-nerd
+cachyos-fish-config
+intel-gpu-tools
