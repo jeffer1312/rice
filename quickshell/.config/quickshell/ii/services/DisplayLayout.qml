@@ -193,6 +193,8 @@ Singleton {
         onExited: exitCode => {
             if (exitCode === 0)
                 settleTimer.restart();
+            else
+                console.warn("[DisplayLayout] displaylayout.sh/hyprctl reload exited with", exitCode);
         }
     }
 
